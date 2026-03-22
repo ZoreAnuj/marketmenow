@@ -1,21 +1,21 @@
 # MarketMeNow
 
-MarketMeNow is an agentic marketing automation system designed for startups. It explores how AI can autonomously execute core marketing workflows, reducing dependency on traditional agencies. This project serves as a technical exploration of automating content strategy, outreach, and campaign management.
+MarketMeNow is an agentic marketing automation system designed for startups. It explores how AI can autonomously handle core marketing workflows, reducing dependency on traditional agencies. This project serves as a technical exploration of AI-driven marketing orchestration.
 
 ## Key Features
-*   **AI-Driven Content Ideation:** Generates marketing content and campaign ideas based on target audience and goals.
-*   **Automated Outreach Workflows:** Orchestrates personalized email sequences and social media interactions.
-*   **Campaign Performance Analysis:** Provides basic insights and metrics on executed marketing activities.
-*   **Modular Agent Architecture:** Built with composable, single-responsibility agents for different marketing functions.
+*   **Multi-Agent Orchestration:** Coordinates specialized AI agents for content, social, and analytics tasks.
+*   **Automated Content Pipeline:** Generates and schedules marketing copy and social posts.
+*   **Campaign Performance Tracking:** Monitors key metrics and provides actionable insights.
+*   **Modular & Extensible Design:** Allows easy integration of new platforms and data sources.
 
 ## Tech Stack
 *   **Backend:** Python, FastAPI
 *   **AI/ML:** LangChain, OpenAI API
-*   **Database:** PostgreSQL
-*   **Tools:** Various APIs for email, social media, and analytics
+*   **Infrastructure:** Docker, PostgreSQL
+*   **Tools:** Git, GitHub Actions
 
 ## Getting Started
 1.  Clone the repo: `git clone https://github.com/zoreanuj/marketmenow.git`
 2.  Install dependencies: `pip install -r requirements.txt`
-3.  Set up environment variables (copy `.env.example` to `.env` and add your API keys).
+3.  Set your environment variables (see `.env.example`).
 4.  Run the application: `uvicorn app.main:app --reload`
