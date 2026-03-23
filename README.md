@@ -17,5 +17,5 @@ MarketMeNow is an agentic marketing automation system designed for startups. It 
 ## Getting Started
 1.  Clone the repo: `git clone https://github.com/zoreanuj/marketmenow.git`
 2.  Install dependencies: `pip install -r requirements.txt`
-3.  Set up environment variables in a `.env` file (see `.env.example`).
-4.  Run the application: `uvicorn app.main:app --reload`
+3.  Set up environment variables in a `.env` file.
+4.  Run the application: `python main.py`
